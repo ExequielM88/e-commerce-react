@@ -1,0 +1,45 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.div-input {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.input-home {
+    
+    border: 1px solid var(--light-gray);
+    width: 75%;
+    height:40px;
+    font-size: 1rem;
+}
+
+.bx-search-alt {
+    background-color: var(--primary);
+    padding: 0.3em;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.filter-home {
+    background-color: var(--primary);
+    color: white;
+    font-size: 1.5rem;
+    margin: 1rem;
+    
+}
+
+.filter-home:hover {
+    font-size: 1.6rem;
+    border: none;
+}

@@ -1,0 +1,33 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color:var(--light-gray);
+    
+    
+}
+
+
+
+.ul-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3em;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.link-home {
+    color: var(--primary);
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+    
+}
+
+.register {
+    display: none;
+}

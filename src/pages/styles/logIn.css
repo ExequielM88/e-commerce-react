@@ -1,0 +1,70 @@
+
+
+.container-login {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 90px;
+    background-color: white;
+    border: 1px solid var(--gray);
+    
+}
+
+.title-login {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.login-form {
+   display: flex;
+   flex-direction: column;
+   padding: 2rem;
+   gap: 2rem;
+   
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    
+}
+
+.input-login {
+    height: 35px;
+    border-radius: 0.5em;
+    border:1px solid var(--gray);
+    font-size: 1em;
+}
+
+.button-login {
+    background-color: var(--primary);
+    font-size: 1.4em;
+    padding: 0.2em;
+    color: white;
+    border-radius: 0.4em;
+}
+
+.button-login:hover {
+    color: black;
+}
+
+.ruta-register {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 1.2em;
+}
+
+.singin-button {
+    background-color: var(--primary);
+    font-size: 1em;
+    padding: 0.2em;
+    color: white;
+    border-radius: 0.3em;
+}
+
+.singin-button:hover {
+    color: black;
+}

@@ -1,0 +1,38 @@
+:root {
+    
+    --primary: #f85555;
+    --light-gray: #dcd9d9;
+    --gray: #c7c7c7;
+    --dark-gray: #4f4f4f;
+     --text-gray: #ababab;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,h2,h3,h4,p,ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}

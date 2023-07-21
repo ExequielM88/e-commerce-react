@@ -1,0 +1,25 @@
+.categories_container {
+    position: fixed;
+    width: 65%;
+    height: 100vh;
+    padding-left: 20px;
+    background-color: rgb(240, 244, 244);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.Filter_close {
+    transform: scale(0);
+}
+
+.title {
+   align-self: start;
+   font-weight: 100;
+   color: brown;
+}
+
